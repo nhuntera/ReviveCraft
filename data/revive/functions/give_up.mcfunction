@@ -1,0 +1,1 @@
+function revive:player_kill
