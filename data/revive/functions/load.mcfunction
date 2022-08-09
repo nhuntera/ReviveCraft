@@ -1,1 +1,2 @@
-tellraw @a {"loaded :)":"I am blue","color":"pink"}
+tellraw @a {"text":"loaded :)","color":"pink"}
+scoreboard objectives add deathSensor deathCount
