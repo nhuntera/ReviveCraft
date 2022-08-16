@@ -1,3 +1,2 @@
-execute as @p if score @p deathSensor > #zero deathSensor run function #downed_state
-scoreboard players reset * deathSensor
-scoreboard players set #zero deathSensor 0
+execute as @p if score @p deathSensor > #zero deathSensor run scoreboard players set @p isDead 1
+scoreboard players set * deathSensor 0
